@@ -1,0 +1,30 @@
+Chemnitz Tierpark
+ 
+Tiere: 
+Es leben 26 Tiere im Zoo  
+
+Gehege:  
+Im Zoo gibt es 8 Gehege: 
+Papageiengehege[3] (Tick, Trick, Track) 
+Adlergehege[2] (American, Dream) 
+Landgehege1[2] (Eddard, Robb) 
+Landgehege2[3] (Zalana, Bran, Arya) 
+Landgehege3[4] (Tywin, Jamie, Cersei, Joffrey) 
+Landgehege4[0] () 
+Walhaibecken[2] (Moby, Dick) 
+Kugelfischtank[10] (Kugelfisch_1, Kugelfisch_2, Kugelfisch_3, Kugelfisch_4, Kugelfisch_5, Kugelfisch_6, Kugelfisch_7, Kugelfisch_8, Kugelfisch_9, Kugelfisch_10) 
+
+Personal:  
+Im Zoo arbeiten 3 Personen: 
+Ramsay betreut : Zalana, Eddard, Bran, Robb, Arya, Tywin, Jamie, Cersei, Joffrey
+Sam betreut : Kugelfisch_1, Kugelfisch_2, Kugelfisch_3, Kugelfisch_4, Kugelfisch_5, Kugelfisch_6, Kugelfisch_7, Kugelfisch_8, Kugelfisch_9, Kugelfisch_10, Moby, Dick
+Daenerys betreut : Tick, Trick, Track, American, Dream
+
+Besucher:  
+Es sind 5 Besucher im Zoo: 
+Catelyn steht am Gehege: Landgehege1 und sieht: Eddard, Robb
+Aerys steht am Gehege: Adlergehege und sieht: American, Dream
+Bronn steht am Gehege: Kugelfischtank und sieht: Kugelfisch_1, Kugelfisch_2, Kugelfisch_3, Kugelfisch_4, Kugelfisch_5, Kugelfisch_6, Kugelfisch_7, Kugelfisch_8, Kugelfisch_9, Kugelfisch_10
+Sansa steht am Gehege: Landgehege1 und sieht: Eddard, Robb
+Willy steht am Gehege: Kugelfischtank und sieht: Kugelfisch_1, Kugelfisch_2, Kugelfisch_3, Kugelfisch_4, Kugelfisch_5, Kugelfisch_6, Kugelfisch_7, Kugelfisch_8, Kugelfisch_9, Kugelfisch_10
+

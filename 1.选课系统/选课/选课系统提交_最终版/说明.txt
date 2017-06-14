@@ -1,0 +1,6 @@
+select type (?
+
+运行请选择RunCSMS.java(main)
+
+
+数据库文件：manage.sql

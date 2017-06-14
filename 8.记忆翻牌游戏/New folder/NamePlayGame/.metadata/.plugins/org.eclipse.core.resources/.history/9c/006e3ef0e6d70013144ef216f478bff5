@@ -1,0 +1,14 @@
+package com.control;
+import java.util.*;
+
+public class Get {
+	HashMap<String,Integer>  hmp=new HashMap<String,Integer>();
+	private int zt;
+	private int x;
+	private int y;
+	public Get()
+	{
+		
+	}
+
+}

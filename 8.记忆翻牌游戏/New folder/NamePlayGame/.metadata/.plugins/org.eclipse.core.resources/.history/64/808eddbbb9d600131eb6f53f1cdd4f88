@@ -1,0 +1,29 @@
+package com.view;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class Zq3d extends JPanel{
+	@Override
+	public void paint(Graphics g)
+	{
+		 g.setColor(Color.lightGray); 
+		  g.fill3DRect(10,10,120,80,true); // 画 一 个 浅 灰 色 的 凸 矩 形 
+		 g.fill3DRect(140,10,120,80,false); // 画 一 个 浅 灰 色 的 凹 矩 形 
+		Color col = new Color(10,200,10); // 定 义 一 种 名 为 col 的 颜 色 
+		 Color darker = col.darker( ); // 定义 一 种 比 col 稍 暗 一 些 的 颜 色 叫 darker 
+		
+		g.setColor(darker); // 用 自 己 定 义的 颜 色 ， 自 己 完 成 一 个 凸 矩 形 
+		g.fillRect(10,140,123,83); 
+		g.setColor(col); 
+		g.fillRect(10,140,120,80); 
+		
+		g.setColor(col); // 用 自 己 定 义 的颜 色 ， 自 己 完 成 一 个 凹 矩 形 
+		 g.fillRect(140,140,123,83); 
+		 g.setColor(darker); 
+		 g.fillRect(140,140,120,80); 
+	}
+
+}

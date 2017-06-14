@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="S2" extends="struts-default">
+
+		<action name="adminlogin" class="com.css.controller.Adminlogin"
+			method="adminlogin">
+			<result name="okok"> /login/adminloginright.jsp</result>
+			<result name="nono"> /login/adminLoginerror.jsp</result>
+		</action>
+
+		<action name="adminshowall" class="com.css.controller.Adminshowall">
+			<result name="toTrue"> /admin/adminshowall.jsp</result>
+		</action>
+
+		<action name="visitorentering" class="com.css.controller.Visitorentering">
+			<result name="toTrue"> /visitor/Cok.jsp</result>
+			<result name="toFa"> /visitor/visitor.jsp</result>
+		</action>
+
+		<action name="deleteVisitor" class="com.css.controller.Visitorentering"
+			method="deleteVisitor">
+			<result name="toTrue">/visitor/Cok.jsp</result>
+		</action>
+
+		<action name="visitorshowall" class="com.css.controller.Visitorentering"
+			method="visitorentering">
+			<result name="toTrue"> /visitor/visitorshowall.jsp</result>
+		</action>
+
+		<action name="register" class="com.css.controller.Adminshowall"
+			method="register">
+			<result name="toTrue"> /register/Cok.jsp</result>
+			<result name="toFa"> /register/register.jsp</result>
+		</action>
+
+		<action name="deleteRoom" class="com.css.controller.Adminshowall"
+			method="deleteRoom">
+			<result name="toTrue">/register/Cok.jsp</result>
+		</action>
+
+		<action name="updateRoom" class="com.css.controller.Adminshowall"
+			method="updateRoom">
+			<result name="toTrue">/update/update.jsp</result>
+		</action>
+
+		<action name="finishUpdate" class="com.css.controller.Adminshowall"
+			method="finishUpdate">
+			<result name="toTrue">/admin/Cok.jsp</result>
+		</action>
+
+		<action name="updateAdmin" class="com.css.controller.Adminlogin"
+			method="updateAdmin">
+			<result name="toTrue">/admin/adminLoginchangefinish.jsp</result>
+		</action>
+
+		<action name="finishUpdateAdmin" class="com.css.controller.Adminlogin"
+			method="finishUpdateAdmin">
+			<result name="toTrue">/admin/adminLoginshowall.jsp</result>
+		</action>
+
+		<action name="adminLoginshowall" class="com.css.controller.Adminlogin">
+			<result name="toTrue"> /admin/adminLoginshowall.jsp</result>
+		</action>
+
+		<action name="testa" class="com.css.controller.Visitorentering"
+			method="testa">
+			<result name="toTrue"> /register/register.jsp</result>
+		</action>
+		
+		<action name="testb" class="com.css.controller.Adminshowall"
+			method="testb">
+			<result name="toTrue"> /visitor/visitor.jsp</result>
+		</action>
+	</package>
+</struts>    

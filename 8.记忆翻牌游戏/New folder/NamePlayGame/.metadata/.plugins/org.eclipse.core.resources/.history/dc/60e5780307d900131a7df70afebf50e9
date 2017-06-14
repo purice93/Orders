@@ -1,0 +1,67 @@
+package com.work1;
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.TextEvent;
+import java.awt.event.TextListener;
+import java.util.*;
+
+public class Demo1 extends JFrame implements KeyListener{
+	JTextField jt=new JTextField();
+	JPanel jp;
+	public Demo1()
+	{
+		
+		
+		jp.add(jt);
+		jt.addKeyListener(this);
+		this.add(jp);
+		this.setSize(200, 300);
+		this.setVisible(true);
+	}
+	
+	public void init() throws InterruptedException
+	{
+		for(int i=0;i<50;i++)
+		{
+			
+			jt.setText(i+"");
+			jp.add(jt);
+			jp.repaint();
+		}
+	}
+
+	@Override
+	public void keyPressed(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		//System.out.println(");
+		try {
+			init();
+		} catch (InterruptedException e) {
+			// TODO 自动生成的 catch 块
+			e.printStackTrace();
+		}
+		
+	}
+
+	@Override
+	public void keyReleased(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		new Demo1();
+	}
+	
+}
+

@@ -1,0 +1,5 @@
+1、软件：myeclipse 10、mysql5.5（是mysql就行）、jdk1.6（myeclipse自带jdk）、tomcat7.0（myeclipse自带tomcat）；
+	由于myeclipse版本原因，不能使用过高版本的tomcat，所以tomcat和jdk都是用myeclipse自带的
+
+2、项目中使用了邮件发送，其他邮箱由于不支持使用，所以采用了163邮箱；另外由于163邮箱有反垃圾控制，可能会存在邮件发送不了的情况。但大多数情况能发送。
+

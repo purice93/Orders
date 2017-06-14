@@ -1,0 +1,47 @@
+package com.view;
+
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+
+/*
+ * 游戏人物
+ * 因为只是设计双人游戏 游戏角色不会改变所以简化写法
+ */
+public class Game_Character {
+	private Image name;
+	private int qixue;
+	private int mofa;
+	private Image touxiang1;
+	private Image touxiang2;
+	
+	public Game_Character(Image name)
+	{
+		this.name=name;
+		this.qixue=3000;
+		this.mofa=3000;
+		this.touxiang1=new ImageIcon("Image/tx1.jpg").getImage();
+		this.touxiang2=new ImageIcon("Image/tx2.jpg").getImage();
+	}
+
+	public Image getName() {
+		return name;
+	}
+
+	public int getQixue() {
+		return qixue;
+	}
+
+	public int getMofa() {
+		return mofa;
+	}
+
+	public Image getTouxiang1() {
+		return touxiang1;
+	}
+	public Image getTouxiang2() {
+		return touxiang2;
+	}
+	
+
+}

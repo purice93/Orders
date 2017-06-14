@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databases>
+	<database name="SQL Server">
+		<driver>com.mysql.jdbc.Driver</driver>
+		<protocal>jdbc:mysql://localhost:3306/myclass</protocal>
+		<dbUrl>educateSystem</dbUrl>
+	</database>
+</databases>

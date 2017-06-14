@@ -1,0 +1,229 @@
+package com.view;
+
+import java.awt.Color;
+import java.awt.Image;
+import java.awt.Toolkit;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.image.ImageFilter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+import javax.imageio.stream.FileImageInputStream;
+import javax.swing.Icon;
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
+import com.control.Game_P_con;
+public class Game_Play_JFrame extends JFrame implements KeyListener{
+	private Image backimage=new ImageIcon("Image/top.jpg").getImage();
+	private Image backimagebottom=new ImageIcon("Image/zhuankui.jpg").getImage();
+	private JPanel jpanelPlayGame;
+	private JPanel jpanelBottomGame;
+    private static int jsx=0;
+    private static int jsh=0;
+    //判断是否腾空
+    boolean bl=false;
+	public Game_Play_JFrame()
+	{
+		this.setLayout(null);
+		//上层背景
+        initGameBackgroundImage();
+        //底层 背景
+        initGameBackgroundBottomImage();
+      
+        
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    
+		//设置窗口大小
+		this.setSize(1000,600);
+		this.addKeyListener(this);
+		int x=(Toolkit.getDefaultToolkit().getScreenSize().width-this.getWidth())/2;
+		int y=(Toolkit.getDefaultToolkit().getScreenSize().height-this.getHeight())/2-32;
+	    //不允许用户改变窗口大小
+	    this.setResizable(false);
+	    //居中
+	    this.setLocation(x, y);
+	    //默认该窗口显示
+	    this.setVisible(true);
+	}
+	public void initGameBackgroundImage()
+	{
+		System.out.println("bb");
+		jpanelPlayGame=new Game_Scene(backimage,0,0,1000,400);
+		jpanelPlayGame.setLayout(null);
+		jpanelPlayGame.setBounds(0, 0, 1000, 400);
+		//添加人物头像等相关信息
+		initGamePersonHai(jpanelPlayGame);
+		//绘制血条魔法条
+		initQixueMf(jpanelPlayGame);
+		//加载人物
+        initGamePerson(jpanelPlayGame);
+		this.add(jpanelPlayGame);
+	}
+	public void initGameBackgroundBottomImage()
+	{
+		jpanelBottomGame=new Game_Scene(backimagebottom,0,0,995,200);
+		jpanelBottomGame.setBounds(0, 400, 1000, 200);
+		this.add(jpanelBottomGame);
+	}
+	public void initGamePersonHai(JPanel jp)
+	{
+		
+		Game_Character game_Character=new Game_Character(new ImageIcon("Image/name1.png"));
+		//取得两个名字
+		JLabel jlname1=new JLabel(game_Character.getName());
+		JLabel jlname2=new JLabel(new Game_Character(new ImageIcon("Image/name2.png")).getName());
+		jlname1.setBounds(30, 100, 50, 50);
+		jlname2.setBounds(910, 100, 50, 50);
+		JLabel jlqixue=new JLabel(new ImageIcon("Image/qixue.png"));
+		JLabel jlmofa=new JLabel(new ImageIcon("Image/mofa.png"));
+		JLabel jlqixue2=new JLabel(new ImageIcon("Image/qixue.png"));
+		JLabel jlmofa2=new JLabel(new ImageIcon("Image/mofa.png"));
+		jlqixue.setBounds(100, 20, 30, 20);
+		jlmofa.setBounds(100, 60, 30, 20);
+		
+		jlqixue2.setBounds(860, 20, 30, 20);
+		jlmofa2.setBounds(860, 60, 30, 20);
+		//头像1坐标
+		JPanel jptx1=new Game_Scene(game_Character.getTouxiang1(),0,0,70,70);
+		//头像2坐标
+		JPanel jptx2=new Game_Scene(game_Character.getTouxiang2(),0,0,70,70);
+		jptx1.setBounds(20, 20, 70, 70);
+		jptx2.setBounds(900,20,70,70);
+		jp.add(jlqixue);
+		jp.add(jlmofa);
+		jp.add(jlqixue2);
+		jp.add(jlmofa2);
+		jp.add(jlname1);
+		jp.add(jlname2);
+		jp.add(jptx1);
+		jp.add(jptx2);
+	}
+	public void initQixueMf(JPanel jp)
+	{
+		JPanel jpqixuetiao=new Game_Qx_Mf_Tiao(0,0,120,20);
+		JPanel jpmofatiao=new Game_Qx_Mf_Tiao(0,0,120,20);
+		
+		JPanel jpqixuetiao2=new Game_Qx_Mf_Tiao(0,0,120,20);
+		JPanel jpmofatiao2=new Game_Qx_Mf_Tiao(0,0,120,20);
+		
+		jpqixuetiao.setBounds(140, 20, 120, 20);
+		jpqixuetiao2.setBounds(730, 20, 120, 20);
+		
+		jpmofatiao.setBounds(140, 60, 120, 20);
+		jpmofatiao2.setBounds(730, 60, 120, 20);
+		
+		jpqixuetiao.setForeground(Color.red);
+		jpqixuetiao2.setForeground(Color.red);
+		
+		jpmofatiao.setForeground(Color.BLUE);
+		jpmofatiao2.setForeground(Color.BLUE);
+		jp.add(jpmofatiao2);
+		jp.add(jpmofatiao);
+		
+		jp.add(jpqixuetiao2);
+		jp.add(jpqixuetiao);
+	}
+	
+	JLabel jlp1_1;
+	public void initGamePerson(JPanel jp) 
+    {   
+		jlp1_1=new JLabel(new ImageIcon("Image/gameP1_1.png"));
+		jlp1_1.setBounds(20,330 , 50, 70);
+		
+		JPanel jpone=new Person_Draw(0,0,80,90);
+		
+		jpone.setBounds(10, 300, 80, 90);
+    	jp.add(jpone);
+    }
+	
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO 自动生成的方法存根
+		if(e.getKeyChar()=='d')
+		{
+			jsx=jsx+2;
+			jlp1_1.setBounds(20+jsx,330+jsh , 50, 70);
+		}
+		else if(e.getKeyChar()=='a')
+		{
+			jsx=jsx-2;
+			jlp1_1.setBounds(20+jsx,330+jsh, 50, 70);
+		}
+		else if(e.getKeyChar()=='k')
+		{
+			
+			Thread t=new Thread() {
+				@Override
+				public void run()
+				{
+					for(int i=0;i<10;i++)
+					{
+						jsh=jsh-5;
+						try {
+							this.sleep(30);
+						} catch (InterruptedException e) {
+							// TODO 自动生成的 catch 块
+							e.printStackTrace();
+						}
+						jlp1_1.setBounds(20+jsx,330+jsh,50, 70);
+						if(i==9)
+						{
+							System.out.println(i);
+							bl=true;
+						}
+					}
+					
+				}
+			};
+			t.start();
+		}
+		else if(e.getKeyChar()=='s')
+		{
+			jsh=jsh+5;
+			jlp1_1.setBounds(20+jsx,330+jsh,50, 70);
+		}
+		else if(e.getKeyChar()=='l')
+		{
+			Thread t=new Thread() {
+				@Override
+				public void run()
+				{
+					for(int i=0;i<100;i++)
+					{
+						jsx=jsx+3;
+						try {
+							this.sleep(2);
+						} catch (InterruptedException e) {
+							// TODO 自动生成的 catch 块
+							e.printStackTrace();
+						}
+						jlp1_1.setBounds(20+jsx,330+jsh,50, 70);
+						
+					}
+					
+				}
+			};
+			t.start();
+		}
+		else if(e.getKeyChar()=='j')
+		{
+			
+		}
+	}
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO 自动生成的方法存根
+		
+	}
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+	
+}

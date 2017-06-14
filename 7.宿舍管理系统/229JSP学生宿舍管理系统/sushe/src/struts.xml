@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts PUBLIC   
+     "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"   
+     "http://struts.apache.org/dtds/struts-2.0.dtd">
+     
+     
+<struts>
+    <package name="liu" extends="struts-default">
+        <global-results>
+            <result name="succeed">/common/succeed.jsp</result>
+            <result name="msg">/common/msg.jsp</result>
+        </global-results>
+        
+        
+        
+        <action name="stuAdd" class="stuAction" method="stuAdd">
+        </action>
+        <action name="stuDel" class="stuAction" method="stuDel">
+        </action>
+        <action name="stuMana" class="stuAction" method="stuMana">
+            <result name="success">/admin/stu/stuMana.jsp</result>
+        </action>
+        <action name="stuEditPre" class="stuAction" method="stuEditPre">
+            <result name="success">/admin/stu/stuEditPre.jsp</result>
+        </action>
+        <action name="stuEdit" class="stuAction" method="stuEdit">
+        </action>
+        <action name="stuEditByMe" class="stuAction" method="stuEditByMe">
+        </action>
+        
+        
+        <action name="susheAdd" class="susheAction" method="susheAdd">
+        </action>
+        <action name="susheDel" class="susheAction" method="susheDel">
+        </action>
+        <action name="susheMana" class="susheAction" method="susheMana">
+            <result name="success">/admin/sushe/susheMana.jsp</result>
+        </action>
+        
+        
+        <action name="laifangAdd" class="laifangAction" method="laifangAdd">
+        </action>
+        <action name="laifangDel" class="laifangAction" method="laifangDel">
+        </action>
+        <action name="laifangMana" class="laifangAction" method="laifangMana">
+            <result name="success">/admin/laifang/laifangMana.jsp</result>
+        </action>
+        <action name="laifangQushijianAdd" class="laifangAction" method="laifangQushijianAdd">
+        </action>
+        
+        
+        <action name="weishengAdd" class="weishengAction" method="weishengAdd">
+        </action>
+        <action name="weishengDel" class="weishengAction" method="weishengDel">
+        </action>
+        <action name="weishengMana" class="weishengAction" method="weishengMana">
+            <result name="success">/admin/weisheng/weishengMana.jsp</result>
+        </action>
+        <action name="weishengAll" class="weishengAction" method="weishengAll">
+            <result name="success">/astu/weisheng/weishengAll.jsp</result>
+        </action>
+        
+        
+        <action name="baoxiuAddMy" class="baoxiuAction" method="baoxiuAddMy">
+        </action>
+        <action name="baoxiuManaMy" class="baoxiuAction" method="baoxiuManaMy">
+            <result name="success">/astu/baoxiu/baoxiuManaMy.jsp</result>
+        </action>
+        <action name="baoxiuShouli" class="baoxiuAction" method="baoxiuShouli">
+        </action>
+        <action name="baoxiuMana" class="baoxiuAction" method="baoxiuMana">
+            <result name="success">/admin/baoxiu/baoxiuMana.jsp</result>
+        </action>
+        
+        
+        
+        
+        <action name="shuidianAdd" class="shuidianAction" method="shuidianAdd">
+        </action>
+        <action name="shuidianDel" class="shuidianAction" method="shuidianDel">
+        </action>
+        <action name="shuidianMana" class="shuidianAction" method="shuidianMana">
+            <result name="success">/admin/shuidian/shuidianMana.jsp</result>
+        </action>
+        <action name="shuidianAll" class="shuidianAction" method="shuidianAll">
+            <result name="success">/astu/shuidian/shuidianAll.jsp</result>
+        </action>
+        
+        
+        
+        <action name="yishiAdd" class="yishiAction" method="yishiAdd">
+        </action>
+        <action name="yishiMana" class="yishiAction" method="yishiMana">
+            <result name="success">/admin/yishi/yishiMana.jsp</result>
+        </action>
+        <action name="yishiDel" class="yishiAction" method="yishiDel">
+        </action>
+         <action name="yishiShenhe" class="yishiAction" method="yishiShenhe">
+        </action>
+        <action name="yishiAll" class="yishiAction" method="yishiAll">
+            <result name="success">/astu/yishi/yishiAll.jsp</result>
+        </action>
+    </package>
+</struts>

@@ -1,0 +1,23 @@
+1、中文：这次没有一个中文，全部为中文，包括界面显示和提示
+2、数据库换为ArrayLis，通过arraylist来传递数据
+	点击登录时：首先（1），读取数据文件admin.txt和passager.txt，将txt数据文件读取到对应的arraylist中，
+		    然后，通过遍历arraylist来查询其中是否包含登录时输入的信息用户，包含的话，说明文件中存在这个用户，显示登陆成功（login success）
+		    否则，登录失败
+	
+	点击注册时;首先，同上一步一样，读取文件信息到arraylist中，然后判断其中是否已经存在注册的用户，如果是，显示用户已存在；
+		    否则，将新的用户通过文件读写存入txt文件中
+
+
+另外：乘客登录时，用户名是指passagerID，密码是passaword
+
+文件初始化：
+admin.txt内容为：（说明：字段的分别为用户名和密码，初始化三个用户）
+	root root
+	admin1 admin1
+	admin2 admin2
+
+passager.txt内容为：（说明：用户名为passagerID1，密码为password1；初始化4个用户）
+	passagerID1 realName1 identityID1 password1 irderID1
+	passagerID2 realName2 identityID2 password2 irderID2
+	passagerID3 realName3 identityID3 password3 irderID3
+	12 21 21 12 

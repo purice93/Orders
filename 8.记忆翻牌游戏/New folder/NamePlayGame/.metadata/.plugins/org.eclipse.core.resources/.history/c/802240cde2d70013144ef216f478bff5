@@ -1,0 +1,15 @@
+package com.control;
+
+public class Get {
+	private boolean zhuangtai;
+
+	public boolean isZhuangtai() {
+		return zhuangtai;
+	}
+
+	public void setZhuangtai(boolean zhuangtai) {
+		this.zhuangtai = zhuangtai;
+	}
+	
+
+}

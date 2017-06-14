@@ -1,0 +1,16 @@
+package com.view;
+
+import java.awt.Color;
+import java.awt.Graphics;
+
+import javax.swing.JPanel;
+
+public class Zq3d extends JPanel{
+	@Override
+	public void paint(Graphics g)
+	{
+		g.setColor(Color.lightGray);
+		g.fill3DRect(0, 0, 60, 60, true);
+	}
+
+}

@@ -1,0 +1,28 @@
+package com.view;
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+/**
+ * ”Œœ∑≥°æ∞
+ * @author Administrator
+ *
+ */
+
+public class Game_Scene extends JPanel{
+	
+	public static final Image BACKGROUND_IMAGE1=new ImageIcon("Image/bj2.jpg").getImage();
+	@Override
+	protected void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		//ª≠±≥æ∞Õº
+		
+		g.drawImage(BACKGROUND_IMAGE1,0,0,this.getWidth(),this.getHeight(),this);
+		
+	}
+
+}

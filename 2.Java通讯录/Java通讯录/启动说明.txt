@@ -1,0 +1,3 @@
+启动主类选择DBLink.java
+mysql数据库驱动在lib文件夹下，右键build path
+mysql-connector-java-5.1.13-bin.jar

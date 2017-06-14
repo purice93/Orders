@@ -1,0 +1,12 @@
+package com.view;
+
+public class MghThread implements Runnable {
+
+	@Override
+	public void run() {
+		// TODO 自动生成的方法存根
+		
+		
+	}
+
+}

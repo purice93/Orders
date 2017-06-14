@@ -1,0 +1,34 @@
+package com.view;
+
+import javax.swing.JPanel;
+
+import com.model.*;
+public class MghThread implements Runnable {
+	JPanel jp;
+	PlayImage playImage;
+	Game_Play_JFrame game_Play_JFrame;
+	public MghThread(JPanel jp,Game_Play_JFrame game_Play_JFrame)
+	{
+		this.jp=jp;
+		this.game_Play_JFrame=game_Play_JFrame;
+		playImage=new PlayImage();
+	}
+
+	@Override
+	public void run() {
+		// TODO 自动生成的方法存根
+		for(int i=0;i<100;i++)
+		{
+			try {
+				Thread.sleep(200);
+			} catch (InterruptedException e) {
+				// TODO 自动生成的 catch 块
+				e.printStackTrace();
+			}
+			
+		}
+		
+		
+	}
+
+}

@@ -1,0 +1,15 @@
+package com.view;
+/**
+ * ”Œœ∑≥°æ∞
+ * @author Administrator
+ *
+ */
+import javax.swing.*;
+public class Game_Scene extends JPanel{
+	@Override
+	protected void paintComponent()
+	{
+		super.paintComponent(g);
+	}
+
+}

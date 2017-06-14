@@ -1,0 +1,26 @@
+package com.control;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+
+public class Test {
+ 
+	Image image=new ImageIcon("image/name1.png").getImage();
+	static JFrame jf=new JFrame();
+	public static void main(String[] args) {
+		// TODO 自动生成的方法存根
+	    
+		
+		jf.setSize(400, 300);
+		jf.setVisible(true);
+	}
+	
+	public void paint(Graphics g)
+	{
+	    g.drawImage();
+	}
+
+}

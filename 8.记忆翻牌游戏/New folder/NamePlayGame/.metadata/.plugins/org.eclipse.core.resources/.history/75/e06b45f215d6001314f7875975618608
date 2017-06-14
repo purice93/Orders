@@ -1,0 +1,29 @@
+package com.model;
+
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+public class Pan extends JPanel{
+	Image image=new ImageIcon("Image/gameP1_1.png").getImage();
+	@Override
+	public void paint(Graphics g)
+	{
+		g.drawImage(image, 10,10, 80,90,null);
+	}
+	
+	public static void main(String[] args)
+	{
+		JFrame jf=new JFrame();
+		Pan p=new Pan();
+		
+		
+		jf.add(p);
+		jf.setSize(400, 500);
+		jf.setVisible(true);
+	}
+
+}

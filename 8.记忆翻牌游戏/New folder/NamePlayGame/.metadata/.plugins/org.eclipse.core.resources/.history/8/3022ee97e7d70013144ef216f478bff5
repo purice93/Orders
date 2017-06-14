@@ -1,0 +1,41 @@
+package com.control;
+import java.util.*;
+
+public class Get {
+	HashMap  hmp;
+	private int zt;
+	private int x;
+	private int y;
+	public Get()
+	{
+		hmp=new HashMap<String,Integer>();
+	}
+	public HashMap<String, Integer> getHmp() {
+		
+		hmp=hmp.put("zhuangtai", getZt());
+		
+		
+		return hmp;
+	}
+	
+	public int getZt() {
+		return zt;
+	}
+	public void setZt(int zt) {
+		this.zt = zt;
+	}
+	public int getX() {
+		return x;
+	}
+	public void setX(int x) {
+		this.x = x;
+	}
+	public int getY() {
+		return y;
+	}
+	public void setY(int y) {
+		this.y = y;
+	}
+
+	
+}

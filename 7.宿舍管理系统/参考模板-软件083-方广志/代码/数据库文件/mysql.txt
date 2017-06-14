@@ -1,0 +1,28 @@
+CREATE TABLE `NewTable` (
+`id`  int(10) NOT NULL ,
+`adminname`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`adminpassword`  varchar(30) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+PRIMARY KEY (`id`)
+)
+
+CREATE TABLE `NewTable` (
+`id`  int(10) UNSIGNED NOT NULL AUTO_INCREMENT ,
+`sid`  int(10) NOT NULL ,
+`sname`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`sroom`  int(10) NOT NULL DEFAULT 0 ,
+`smajor`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`sclass`  int(10) NOT NULL ,
+`semail`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+PRIMARY KEY (`id`)
+)
+
+CREATE TABLE `NewTable` (
+`id`  int(10) UNSIGNED NOT NULL AUTO_INCREMENT ,
+`visitor`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`visitornumber`  int(10) NOT NULL ,
+`visitorname`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`visitorconnection`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`thing`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+`watch`  varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL ,
+PRIMARY KEY (`id`)
+)

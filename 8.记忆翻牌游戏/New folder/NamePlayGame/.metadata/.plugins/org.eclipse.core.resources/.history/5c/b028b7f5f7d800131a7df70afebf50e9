@@ -1,0 +1,104 @@
+package com.view;
+
+import java.awt.Image;
+import java.util.Random;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+import com.model.*;
+public class MghThread implements Runnable {
+	JPanel jp;
+	PlayImage playImage;
+	Game_Play_JFrame game_Play_JFrame;
+	Image im;
+	JPanel jmgh;
+	int x;
+	int y;
+	int width=30;
+	int height=30;
+	int jsx;
+	public MghThread(JPanel jp,Game_Play_JFrame game_Play_JFrame,Image im,int width,int height)
+	{
+		this.width=width;
+		this.height=height;
+		jsx=x;
+		this.im=im;
+		this.jmgh=new Person_Draw(0,0,width,height,im);
+		this.jp=jp;
+		this.game_Play_JFrame=game_Play_JFrame;
+		playImage=new PlayImage();
+	}
+	public MghThread(JPanel jp,Game_Play_JFrame game_Play_JFrame)
+	{
+		im=new ImageIcon("Image/mgh.png").getImage();
+		this.jmgh=new Person_Draw(0,0,width,height,im);
+		this.jp=jp;
+		this.game_Play_JFrame=game_Play_JFrame;
+		playImage=new PlayImage();
+	}
+
+	@Override
+	public void run() {
+		if(game_Play_JFrame.getGjfx()==1)
+		{
+			x=game_Play_JFrame.getXmy();
+			y=game_Play_JFrame.getYmy();
+			game_Play_JFrame.setGjfx(0);
+			int i;
+			for(i=0;i<80;i++)
+			{
+				x+=10;
+				try {
+					Thread.sleep(40);
+				} catch (InterruptedException e) {
+					// TODO 自动生成的 catch 块
+					e.printStackTrace();
+				}
+				jp.remove(jmgh);
+				game_Play_JFrame.initMgh(jmgh,x, y-30,width,height);
+				jp.repaint();
+				
+				if(i==79)
+				{
+					x=game_Play_JFrame.getXmy();
+					y=game_Play_JFrame.getYmy();
+					
+					jp.remove(jmgh);
+					jp.repaint();
+				}
+				
+			
+			}
+		}
+			else
+			{
+				// TODO 自动生成的方法存根
+				Random random=new Random();
+				x=random.nextInt(800);
+				y=0;
+					for(int i=0;i<30;i++)
+					{
+						y+=10;
+						try {
+							Thread.sleep(400);
+						} catch (InterruptedException e) {
+							// TODO 自动生成的 catch 块
+							e.printStackTrace();
+						}
+						jp.remove(jmgh);
+						game_Play_JFrame.initMgh(jmgh,x, y,width,height);
+						jp.repaint();
+					}
+			
+			
+			}
+				
+			
+			
+		
+			
+	}
+	
+
+}

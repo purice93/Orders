@@ -1,0 +1,43 @@
+package com.work1;
+import javax.swing.*;
+
+import java.awt.*;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.TextEvent;
+import java.awt.event.TextListener;
+import java.util.*;
+
+public class Demo1 extends JFrame implements KeyListener{
+	JTextField jt=new JTextField();
+	
+	public Demo1()
+	{
+		
+		
+		this.add(jt);
+		this.setSize(200, 300);
+		this.setVisible(true);
+	}
+
+	@Override
+	public void keyPressed(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		jt.setText("dsaads");
+		
+	}
+
+	@Override
+	public void keyReleased(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+	
+}
+

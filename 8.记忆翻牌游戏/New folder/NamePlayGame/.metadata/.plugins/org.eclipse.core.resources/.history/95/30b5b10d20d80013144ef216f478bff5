@@ -1,0 +1,291 @@
+package com.control;
+import java.awt.Image;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import com.model.*;
+
+import javax.swing.ImageIcon;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+
+import com.view.*;
+public class Game_P_con implements KeyListener{
+	JPanel jpanelPlayGame;
+	Game_Play_JFrame game_Play_JFrame;
+	JPanel jpone;
+	PlayImage playImage;
+	private static int jsx=0;
+    private static int jsh=0;
+    static int index=1;
+	static int idexfz=4;
+	static int idexgj=8;
+	static int indexgjfz=10;
+	static int indexaida=12;
+	static int ssqx=0;
+	
+	//自己坐标
+	int xmy=0;
+	int ymy=0;
+	//判断方向
+    boolean bl=false;
+    //判断悬空
+    boolean blxk=false;
+    Image gdimage=new ImageIcon("fz_image/d7.png").getImage();
+	public Game_P_con(JPanel jpanelPlayGame,JPanel jpone,Game_Play_JFrame game_Play_JFrame)
+	{
+		this.jpone=jpone;
+		this.jpanelPlayGame=jpanelPlayGame;
+		this.game_Play_JFrame=game_Play_JFrame;
+		//初始化加人物图片
+		playImage=new PlayImage();
+	}
+	
+	@Override
+	public void keyPressed(KeyEvent e) {
+		// TODO 自动生成的方法存根
+		if(e.getKeyChar()=='d')
+		{
+			bl=true;
+			//beiacctack(jsx,jsh,13);
+			if(index==4)
+				index=0;
+			jsx=jsx+5;
+			jpanelPlayGame.remove(jpone);
+			game_Play_JFrame.MoveMy(jsx,jsh,index);
+			jpanelPlayGame.repaint();
+			index++;
+		}
+		else if(e.getKeyChar()=='a')
+		{
+			bl=false;
+			jsx=jsx-5;
+			
+			if((10+jsx)<0)
+    		{
+				jsx=10;
+				jpanelPlayGame.remove(jpone);
+				game_Play_JFrame.MoveMy(jsx,jsh,idexfz);
+				jpanelPlayGame.repaint();
+			}
+			else
+			{
+				if(idexfz==7)
+					idexfz=4;
+				jpanelPlayGame.remove(jpone);
+				game_Play_JFrame.MoveMy(jsx,jsh,idexfz);
+				jpanelPlayGame.repaint();
+				idexfz++;
+			}
+		}
+		else if(e.getKeyChar()=='k')
+		{
+			
+			if(bl)
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<60;i++)
+						{
+							jsh-=3;
+							try {
+								Thread.sleep(5);
+							} catch (InterruptedException e) {
+								// TODO 自动生成的 catch 块
+								e.printStackTrace();
+							}
+							jpanelPlayGame.remove(jpone);
+							game_Play_JFrame.MoveMy(jsx,jsh,index);
+							jpanelPlayGame.repaint();
+						}
+					}
+				};
+				t.start();
+			}
+			else
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<60;i++)
+						{
+							jsh-=3;
+							try {
+								Thread.sleep(10);
+							} catch (InterruptedException e) {
+								// TODO 自动生成的 catch 块
+								e.printStackTrace();
+							}
+							jpanelPlayGame.remove(jpone);
+							game_Play_JFrame.MoveMy(jsx,jsh,idexfz);
+							jpanelPlayGame.repaint();
+						}
+						
+					}
+				};
+				t.start();
+			}
+		}
+		else if(e.getKeyChar()=='s')
+		{
+			if(bl)
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<60;i++)
+						{
+							jsh+=3;
+							try {
+								Thread.sleep(5);
+							} catch (InterruptedException e) {
+								// TODO 自动生成的 catch 块
+								e.printStackTrace();
+							}
+							jpanelPlayGame.remove(jpone);
+							game_Play_JFrame.MoveMy(jsx,jsh,index);
+							jpanelPlayGame.repaint();
+						}
+					}
+				};
+				t.start();
+			}
+			else
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<60;i++)
+						{
+							jsh+=3;
+							try {
+								Thread.sleep(10);
+							} catch (InterruptedException e) {
+								// TODO 自动生成的 catch 块
+								e.printStackTrace();
+							}
+							jpanelPlayGame.remove(jpone);
+							game_Play_JFrame.MoveMy(jsx,jsh,idexfz);
+							jpanelPlayGame.repaint();
+						}
+					}
+				};
+				t.start();
+			}
+		}
+		else if(e.getKeyChar()=='l')
+		{
+			if(bl)
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<100;i++)
+						{
+							if((10+jsx)<0)
+				    		{
+								jsx=10;
+								jpanelPlayGame.remove(jpone);
+								game_Play_JFrame.MoveMy(jsx,jsh,0);
+								jpanelPlayGame.repaint();
+							}
+							else
+							{
+								jsx+=5;
+								jpanelPlayGame.remove(jpone);
+								game_Play_JFrame.MoveMy(jsx,jsh,0);
+								jpanelPlayGame.repaint();
+							}
+							
+						}
+						
+					}
+				};
+				t.start();
+			}
+			else
+			{
+				Thread t=new Thread(){
+					@Override
+					public void run()
+					{
+						for(int i=0;i<100;i++)
+						{
+							if((10+jsx)<0)
+				    		{
+								jsx=10;
+							
+								game_Play_JFrame.MoveMy(jsx,jsh,4);
+								jpanelPlayGame.repaint();
+							}
+							else
+							{
+								jsx-=5;
+							
+								game_Play_JFrame.MoveMy(jsx,jsh,4);
+								jpanelPlayGame.repaint();
+							}
+						}
+					}
+				};
+				t.start();
+			}
+		
+		}
+		else if(e.getKeyChar()=='j')
+		{
+			int xmmy=game_Play_JFrame.getXmy();
+			int xdr=game_Play_JFrame.getXdr();
+			int ydr=game_Play_JFrame.getYdr();
+			if(bl)
+			{ 
+				bl=true;				
+				jpanelPlayGame.remove(jpone);
+				game_Play_JFrame.MoveMy(jsx,jsh,idexgj);
+				jpanelPlayGame.repaint();
+				++idexgj;
+				if(idexgj==10)
+					idexgj=8;
+			}
+			if(!bl)
+			{
+				jpanelPlayGame.remove(jpone);
+				game_Play_JFrame.MoveMy(jsx,jsh,indexgjfz++);
+				jpanelPlayGame.repaint();
+				if(indexgjfz==12)
+					indexgjfz=10;		
+			}
+			if(xmmy<=xdr&&xmmy>=(xdr-55))
+			{
+				ssqx+=10;
+				jpanelPlayGame.remove(game_Play_JFrame.getJpdr());
+				game_Play_JFrame.Move(xdr-600, ydr-383, playImage.getAlImage().get(13),1);
+				jpanelPlayGame.repaint();
+				
+				JPanel jpqx=game_Play_JFrame.getJpqixuetiao2();
+				jpanelPlayGame.remove(jpqx);
+				game_Play_JFrame.initQixueMf(jpqx, ssqx, 0);
+				
+			}
+				System.out.println(xmmy+"  "+xdr);
+		}
+	}
+	@Override
+	public void keyReleased(KeyEvent e) {
+		// TODO 自动生成的方法存根
+		//当悬空时候会自动掉下来
+		boolean bll=true;
+		int i=5;
+	}
+	@Override
+	public void keyTyped(KeyEvent arg0) {
+		// TODO 自动生成的方法存根
+		
+	}
+}

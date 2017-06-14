@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item value="false" key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID"/>
+		<item value="false" key="WizardProjectsImportPage.STORE_NESTED_PROJECTS"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="F:\JAVA程序\Java游戏编程原理与实践教程\上传\Java网络五子棋2"/>
+			<item value="F:\JAVA程序\Java游戏编程原理与实践教程\上传\Java走迷宫游戏"/>
+			<item value="F:\JAVA程序\Java游戏编程原理与实践教程\上传\Java打猎射击游戏"/>
+			<item value="F:\JAVA程序\Java游戏编程原理与实践教程\上传\Java扑克牌2"/>
+			<item value="F:\JAVA程序\Java游戏编程原理与实践教程\上传\Java25D推箱子"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+</section>

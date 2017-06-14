@@ -1,0 +1,50 @@
+package com.view;
+
+import java.awt.Image;
+import java.util.Random;
+
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+import com.model.*;
+public class MghThread implements Runnable {
+	JPanel jp;
+	PlayImage playImage;
+	Game_Play_JFrame game_Play_JFrame;
+	Image im=new ImageIcon("Image/mgh.png").getImage();
+	JPanel jmgh;
+	public MghThread(JPanel jp,Game_Play_JFrame game_Play_JFrame)
+	{
+		this.jmgh=new Person_Draw(0,0,30,30,im);
+		this.jp=jp;
+		this.game_Play_JFrame=game_Play_JFrame;
+		playImage=new PlayImage();
+	}
+
+	@Override
+	public void run() {
+		
+		Random random=new Random();
+		int x=random.nextInt(800);
+		int y=0;
+		// TODO 自动生成的方法存根
+		while(true)
+		{
+			for(int i=0;i<100;i++)
+			{
+				y+=10;
+				try {
+					Thread.sleep(300);
+				} catch (InterruptedException e) {
+					// TODO 自动生成的 catch 块
+					e.printStackTrace();
+				}
+				jp.remove(jmgh);
+				game_Play_JFrame.initMgh(jmgh,x, y);
+				jp.repaint();
+			}
+		}
+		
+	}
+
+}

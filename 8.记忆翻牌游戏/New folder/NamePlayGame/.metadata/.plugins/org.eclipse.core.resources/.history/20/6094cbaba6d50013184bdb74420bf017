@@ -1,0 +1,59 @@
+package com.view;
+
+import java.awt.Color;
+import java.awt.TextField;
+import java.awt.Toolkit;
+
+import javax.swing.*;
+public class Game_JFrame extends JFrame{
+	private Game_Scene game_Scene;
+	//背景面板
+	private JPanel jpanel;
+	public Game_JFrame()
+	{
+		//添加背景图
+		initBackgroundImage();
+		
+		
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	    
+		//设置窗口大小
+		this.setSize(1024,553);
+		
+		int x=(Toolkit.getDefaultToolkit().getScreenSize().width-this.getWidth())/2;
+		int y=(Toolkit.getDefaultToolkit().getScreenSize().height-this.getHeight())/2-32;
+	   
+		
+		
+	    //不允许用户改变窗口大小
+	    this.setResizable(false);
+	    //居中
+	    this.setLocation(x, y);
+	    //默认该窗口显示
+	    this.setVisible(true);
+
+	}
+	
+	public void initBackgroundImage()
+	{
+		jpanel=new Game_Scene();
+		jpanel.setLayout(null);
+		JLabel jlusername=new JLabel(new ImageIcon("Image/username.png"));
+		JLabel jlpassword=new JLabel(new ImageIcon("Image/password.png"));
+		
+		JTextField jt1=new JTextField();
+		JTextField jt2=new JTextField();
+		jlusername.setBounds(20, 300, 80, 30);
+		jlpassword.setBounds(20, 300, 80, 30);
+		jt1.setBounds(120, 300, 150, 30);
+		jt2.setBounds(120, 350, 150, 30);
+		
+		
+		jt1.setBackground(Color.LIGHT_GRAY);
+		jt2.setBackground(Color.LIGHT_GRAY);
+		jpanel.add(jt1);
+		jpanel.add(jt2);
+		this.add(jpanel);
+	}
+
+}

@@ -1,0 +1,3128 @@
+!SESSION 2014-05-07 10:53:26.886 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.288
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.382
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.398
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:53:29.663
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:13.343
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:13.936
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:14.092
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:14.092
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:14.529
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:16.947
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-07 10:54:34.918
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-07 10:54:34.918
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:36.774
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:54:36.774
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:47.832
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:47.832
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:47.832
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:47.832
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:47.832
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 10:55:48.815
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:08:40.244
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:11.656
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:11.657
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:22.128
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:22.198
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.164
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.164
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.165
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.166
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.166
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:11:34.167
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:22:05.726
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 11:44:39.491
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:00:21.729
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:00:21.730
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:00:21.731
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:00:38.428
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.205
+!MESSAGE NLS unused message: JavadocView_action_toggleLinking_toolTipText in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.206
+!MESSAGE NLS unused message: JavadocView_action_toogleLinking_text in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.207
+!MESSAGE NLS unused message: JavadocView_noAttachments in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.207
+!MESSAGE NLS unused message: JavadocView_noAttachedSource in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.208
+!MESSAGE NLS unused message: JavadocView_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 12:08:47.208
+!MESSAGE NLS unused message: JavadocView_noInformation in: org.eclipse.jdt.internal.ui.infoviews.InfoViewMessages
+!SESSION 2014-05-07 22:55:34.385 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.194
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.288
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:55:36.569
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:00.359
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:02.106
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:02.106
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:03.572
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:03.588
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:03.588
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:03.588
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:03.588
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:04.555
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:06.427
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:10.233
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:10.920
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:11.154
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:11.154
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:18.158
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-07 22:56:26.707
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-07 22:56:26.707
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:49.062
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:54.943
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:54.943
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:54.959
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:54.974
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:54.974
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:55.910
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 22:56:56.565
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 23:00:19.385
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-07 23:10:24.720
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 00:37:09.955
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-08 08:32:13.611 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.264
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.358
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:15.670
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-05-08 08:32:18.431
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.298
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.298
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.298
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.298
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.298
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:23.751
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:35.498
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:36.995
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:36.995
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:39.117
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:43.485
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:44.015
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:44.234
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:44.234
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:32:51.363
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 08:33:07.384
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 08:33:07.384
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:33:20.395
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:33.387
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:33.387
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:33.403
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:33.403
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:33.418
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:34.151
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:34:34.339
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:39:05.633
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 08:39:22.285
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 13:41:52.453
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-08 21:33:03.272 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.817
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:04.910
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:05.191
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:19.340
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:20.542
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:20.542
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:21.493
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:21.493
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:21.493
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:21.493
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:21.493
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:22.148
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:23.506
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:26.236
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:26.969
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:27.203
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:27.218
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:33:31.508
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 21:33:33.942
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 21:33:33.942
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.084
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.084
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.084
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.100
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.100
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:00.100
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:03.298
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.075
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.075
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.075
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.075
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.075
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:06.683
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:39:09.319
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 21:43:26.784
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 22:34:57.208
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-08 23:19:58.615 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.128
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.221
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.237
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:00.533
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:28.364
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:30.158
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:30.158
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:31.858
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:31.858
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:31.858
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:31.874
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:31.874
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:33.933
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:37.178
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:41.359
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:42.482
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:42.669
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:42.669
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:20:50.204
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 23:20:59.189
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-08 23:20:59.189
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:54.351
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:54.351
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:54.367
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:54.382
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:54.382
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:55.240
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:55.584
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:21:56.114
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:28:48.953
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-08 23:28:49.187
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 00:18:49.870
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-09 07:46:19.312 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.277
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.371
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:21.652
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:43.648
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:45.332
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:45.332
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:46.783
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:46.783
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:46.783
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:46.783
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:46.783
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:47.766
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:49.997
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:54.115
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:54.692
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:55.098
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:46:55.098
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:06.439
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 07:47:16.298
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 07:47:16.298
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:37.733
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:37.733
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:37.764
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:37.764
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:37.764
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:38.451
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:47:39.699
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:49:50.730
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:59:44.842
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 07:59:45.044
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+!SESSION 2014-05-09 08:52:44.086 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.522
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.600
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.615
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:52:45.896
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:01.013
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:02.604
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:02.604
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:04.101
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:04.117
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:04.117
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:04.117
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:04.117
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:05.162
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:07.003
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:11.340
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:11.995
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:12.432
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:12.432
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:53:19.779
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 08:53:32.181
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 08:53:32.181
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.327
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.327
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.327
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.342
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.342
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:08.342
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:25.455
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:25.471
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:25.487
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:25.487
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:25.487
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:26.423
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:54:27.343
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:56:03.281
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 08:57:12.826
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 09:04:09.138
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+!SESSION 2014-05-09 11:05:19.207 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.721
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.817
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.818
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.818
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.818
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.819
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.819
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.819
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.820
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.820
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.821
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.821
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.822
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.822
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.822
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.822
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.823
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.823
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.824
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.824
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.824
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.825
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.826
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:20.828
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:21.139
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:51.350
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:51.817
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:51.818
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.035
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.036
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.036
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.036
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.037
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.209
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:52.872
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:54.063
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:54.218
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:54.242
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:54.243
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:05:56.921
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 11:05:58.919
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 11:05:58.920
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.307
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.307
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.308
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.309
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.309
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:07:42.310
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.162
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.163
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.170
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.172
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.173
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:46.505
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:08:49.953
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:15:34.346
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 11:45:37.994
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+!SESSION 2014-05-09 15:37:34.922 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.345
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.439
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:36.720
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:54.816
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:56.407
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:56.407
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:57.686
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:57.686
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:57.686
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:57.686
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:57.686
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:37:58.529
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:00.338
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:03.536
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:04.176
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:04.363
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:04.379
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:09.963
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 15:38:13.177
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 15:38:13.177
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:33.301
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:51.693
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:38:52.021
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.447
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.447
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.463
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.463
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.463
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:26.634
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 15:54:27.336
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:11:57.227
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-09 16:59:42.404 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.120
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.261
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.276
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:44.713
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-05-09 16:59:47.037
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.173
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.173
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.173
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.173
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.173
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:50.844
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 16:59:59.377
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:00.656
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:00.656
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:02.762
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:07.286
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:07.754
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:07.879
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:07.879
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:00:14.322
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 17:00:30.764
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-09 17:00:30.764
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:09.967
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.076
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.076
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.076
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.076
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.092
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:10.092
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:01:40.122
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:18.941
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:18.941
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:18.941
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:18.941
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:18.941
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:19.097
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-09 17:06:19.503
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+!SESSION 2014-05-10 00:45:32.373 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.839
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:33.933
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:34.198
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:48.909
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:50.079
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:50.079
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.046
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.046
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.046
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.046
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.046
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:51.826
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:53.168
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:55.523
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:56.272
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:56.381
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:45:56.381
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:46:00.422
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-10 00:46:02.637
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-10 00:46:02.637
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:07.907
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:07.923
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:07.923
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:07.923
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:07.923
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:08.188
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:47:09.249
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 00:48:00.962
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+!SESSION 2014-05-10 09:09:25.591 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:26.964
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.073
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:27.370
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:44.577
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:44.982
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:44.982
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.201
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.201
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.201
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.201
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.201
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:45.388
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:46.074
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:47.057
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:47.197
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:47.229
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:47.229
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:49.319
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-10 09:09:51.316
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-10 09:09:51.316
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:59.927
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:59.927
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:59.927
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:59.927
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:09:59.927
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:10:00.068
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:10:01.097
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:17:11.776
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:27:43.950
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 09:27:44.028
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-10 10:51:19.380
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-11 09:20:20.933 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.363
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.463
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:20:22.753
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:00.548
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:01.958
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:01.958
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.228
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.228
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.228
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.228
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.228
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:03.978
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:05.278
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:08.288
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:09.158
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:09.338
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:09.338
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:30:14.698
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 09:30:17.658
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 09:30:17.658
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.648
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.658
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.658
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.658
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.658
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:00.658
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:05.808
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:05.808
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:05.818
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:05.818
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:05.818
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:06.478
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 09:31:07.608
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+!SESSION 2014-05-11 11:01:01.751 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:11.173
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.649
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:16.664
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:24.842
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.core.resources 2 10035 2014-05-11 11:01:36.453
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:53.860
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:55.305
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:55.306
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:56.709
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:56.709
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:56.710
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:56.711
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:56.711
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:57.483
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:01:59.088
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:02:01.994
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:02:02.441
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:02:02.644
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:02:02.644
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 11:02:10.470
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 11:02:16.081
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 11:02:16.082
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-05-11 14:08:13.301 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.829
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.923
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:14.939
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:15.235
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:36.451
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:37.808
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:37.808
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:38.760
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:38.760
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:38.760
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:38.760
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:38.760
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:39.665
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:41.084
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:44.142
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:44.610
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:44.813
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:44.813
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 14:08:50.288
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 14:08:52.925
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 14:08:52.925
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2014-05-11 15:51:39.261 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.469
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.559
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.564
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.569
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:40.849
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:54.846
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:55.997
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:55.998
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:57.344
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:57.345
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:57.346
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:57.347
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:57.348
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:58.060
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:51:59.479
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:52:02.334
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:52:02.755
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:52:03.020
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:52:03.020
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:52:07.295
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 15:52:10.187
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-11 15:52:10.188
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.909
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.964
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.964
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.964
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.964
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:56:58.969
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:19.757
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:19.757
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:19.804
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:19.804
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:19.804
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:22.085
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:57:23.021
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 15:59:15.223
+!MESSAGE NLS unused message: TargetPlatformResetJob_resetTarget in: org.eclipse.pde.internal.core.pderesources
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:05:44.108
+!MESSAGE NLS unused message: LocalCorrectionsSubProcessor_LocalCorrectionsSubProcessor_qualify_right_hand_side_description in: org.eclipse.jdt.internal.ui.text.correction.CorrectionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-11 16:14:39.361
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+!SESSION 2014-05-12 14:05:26.399 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_45
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=zh_CN
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:34.468
+!MESSAGE NLS unused message: line_separator_platform_mac_os_9 in: org.eclipse.core.internal.runtime.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.350
+!MESSAGE NLS unused message: ViewsPreference_currentPresentation in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.351
+!MESSAGE NLS unused message: ViewsPreference_currentPresentationFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.352
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_title in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.352
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_message in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.352
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_yes in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.353
+!MESSAGE NLS unused message: ViewsPreference_presentationConfirm_no in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.353
+!MESSAGE NLS unused message: ViewsPreference_editors in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.354
+!MESSAGE NLS unused message: ViewsPreference_editors_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.354
+!MESSAGE NLS unused message: ViewsPreference_editors_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.354
+!MESSAGE NLS unused message: ViewsPreference_views in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.355
+!MESSAGE NLS unused message: ViewsPreference_views_top in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.355
+!MESSAGE NLS unused message: ViewsPreference_views_bottom in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.356
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.356
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topRight in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.357
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_topLeft in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.357
+!MESSAGE NLS unused message: ViewsPreference_perspectiveBar_left in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.357
+!MESSAGE NLS unused message: ViewsPreference_traditionalTabs in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.358
+!MESSAGE NLS unused message: ViewsPreference_currentTheme in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.358
+!MESSAGE NLS unused message: ViewsPreference_currentThemeDescription in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.358
+!MESSAGE NLS unused message: ViewsPreference_override in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.359
+!MESSAGE NLS unused message: ViewsPreference_currentThemeFormat in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.359
+!MESSAGE NLS unused message: ViewsPreference_restartRequestJobName in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:35.360
+!MESSAGE NLS unused message: EditorManager_largeDocumentWarning in: org.eclipse.ui.internal.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:05:37.746
+!MESSAGE NLS unused message: OpenResourceDialog_openWithButton_toolTip in: org.eclipse.ui.internal.ide.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:27.790
+!MESSAGE NLS unused message: JavaEditorPreferencePage_highlightMatchingBrackets in: org.eclipse.jdt.internal.ui.preferences.PreferencesMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:29.069
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_label in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:29.070
+!MESSAGE NLS unused message: SourceAttachmentBlock_filename_internal_button in: org.eclipse.jdt.internal.ui.wizards.NewWizardMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.111
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_6 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.112
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_7 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.112
+!MESSAGE NLS unused message: LaunchConfigurationWorkingCopy_8 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.112
+!MESSAGE NLS unused message: LaunchConfigurationType_0 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.113
+!MESSAGE NLS unused message: LaunchConfigurationType_1 in: org.eclipse.debug.internal.core.DebugCoreMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:30.949
+!MESSAGE NLS unused message: GotoMatchingBracket_error_invalidSelection in: org.eclipse.jdt.internal.ui.javaeditor.JavaEditorMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:32.547
+!MESSAGE NLS unused message: StandardVMType_Standard_VM_not_supported_on_MacOS__1 in: org.eclipse.jdt.internal.launching.LaunchingMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:35.473
+!MESSAGE NLS unused message: TaskJobFactory_Receiving_configuration in: org.eclipse.mylyn.internal.tasks.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:36.533
+!MESSAGE NLS unused message: BugzillaClientManager_Refreshing_repository_configuration in: org.eclipse.mylyn.internal.bugzilla.core.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:36.974
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Error_updating_repository_configuration in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:36.975
+!MESSAGE NLS unused message: UpdateRepositoryConfigurationAction_Updating_repository_configuration_for_X in: org.eclipse.mylyn.internal.tasks.ui.views.messages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:06:43.588
+!MESSAGE NLS unused message: QuickAccess_PressKeyToShowInitialMatches in: org.eclipse.ui.internal.quickaccess.messages
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-12 14:06:46.775
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2014-05-12 14:06:46.776
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Administrator'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:08:18.565
+!MESSAGE NLS unused message: NextThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:08:18.565
+!MESSAGE NLS unused message: PreviousThreadNavAction_name in: org.eclipse.debug.internal.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:08:19.563
+!MESSAGE NLS unused message: StepIntoSelectionActionDelegate_Step_into_selection_only_available_in_Java_editor__4 in: org.eclipse.jdt.internal.debug.ui.actions.ActionMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:08:22.726
+!MESSAGE NLS unused message: JavaDetailFormattersManager_9 in: org.eclipse.jdt.internal.debug.ui.DebugUIMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.524
+!MESSAGE NLS unused message: JavadocHover_noAttachments in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.524
+!MESSAGE NLS unused message: JavadocHover_noAttachedSource in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.525
+!MESSAGE NLS unused message: JavadocHover_noAttachedJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.525
+!MESSAGE NLS unused message: JavadocHover_noInformation in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.525
+!MESSAGE NLS unused message: JavadocHover_error_gettingJavadoc in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:09:27.526
+!MESSAGE NLS unused message: ProblemHover_chooseSettingsTypeDialog_button_cancel in: org.eclipse.jdt.internal.ui.text.java.hover.JavaHoverMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:10:59.023
+!MESSAGE NLS unused message: ContextRunner_2 in: org.eclipse.debug.internal.ui.contextlaunching.ContextMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:10:59.637
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_0 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:10:59.638
+!MESSAGE NLS unused message: LaunchConfigurationTabGroupViewer_19 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages
+
+!ENTRY org.eclipse.osgi 2 1 2014-05-12 14:10:59.639
+!MESSAGE NLS unused message: LaunchConfigurationDialog_Cancel_3 in: org.eclipse.debug.internal.ui.launchConfigurations.LaunchConfigurationsMessages

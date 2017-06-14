@@ -1,0 +1,19 @@
+package com.view;
+
+import javax.swing.JPanel;
+
+public class MghThread implements Runnable {
+	JPanel jp;
+	public MghThread(JPanel jp)
+	{
+		this.jp=jp;
+	}
+
+	@Override
+	public void run() {
+		// TODO 自动生成的方法存根
+		
+		
+	}
+
+}

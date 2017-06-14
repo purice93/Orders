@@ -1,0 +1,11 @@
+还存在一个错误：需要问一下老师
+FAIL: 	AVL:addAVLStage2. Marks lost: 5.0
+
+
+可能原因是题目测试本身是错的：
+如果更改一下就可以：
+
+在文件AVLTest.java的测试方法addAVLStage2()中；
+assertEquals("Check Sophronia's left", haidee);
+应该改为：assertEquals("Check Sophronia's left", haidee,sophronia.getLeft());
+这样就能正常通过，而且这个语句提示：Check Sophronia's left也是这个意思

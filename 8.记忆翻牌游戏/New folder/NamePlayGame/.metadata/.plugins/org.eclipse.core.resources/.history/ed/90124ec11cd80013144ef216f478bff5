@@ -1,0 +1,38 @@
+package com.view;
+import java.awt.Graphics;
+import java.awt.Image;
+
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JPanel;
+
+/**
+ * ”Œœ∑≥°æ∞
+ * @author Administrator
+ *
+ */
+
+public class Game_Scene extends JPanel{
+	
+	public Image BACKGROUND_IMAGE1;
+	private int width;
+	private int height;
+	private int csx;
+	private int csy;
+	public Game_Scene(Image BACKGROUND_IMAGE1,int csx,int csy,int width,int height)
+	{
+		this.width=width;
+		this.height=height;
+		this.BACKGROUND_IMAGE1=BACKGROUND_IMAGE1;
+	}
+	
+  
+	protected void paintComponent(Graphics g)
+	{
+		super.paintComponent(g);
+		//ª≠±≥æ∞Õº
+		
+		g.drawImage(BACKGROUND_IMAGE1,csx,csy,width,height,null);
+		
+	}
+}
