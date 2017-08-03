@@ -1,0 +1,8 @@
+a).Solve the expansion loss: if we know the approximate capacity, set the reasonable initial capacity to solve the expansion loss;
+use reasonable hash function:the object is string.
+
+b).Finding the maximum or minimum will be faster£¬but random lookups can be slower¡£
+
+c).TreeMap is the commonly used Map interface implementation class, and TreeSet is the commonly used Set interface implementation class.
+the bottom of TreeSet is realized by TreeMap.TreeSet cannot duplicate objects, while TreeMap can exist in.
+TreeSet stores only one object, and TreeMap storage two objects Key and Value.

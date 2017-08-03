@@ -1,0 +1,95 @@
+N = 10:
+                           Strings    Numbers
+TreeMap, put               7061ns  10633ns
+(when key/value present)
+TreeMap, containsKey       143ns  16ns
+TreeMap, containsValue     295ns  90ns
+(when key/value absent)
+TreeMap, containsKey       53ns  28ns
+TreeMap, containsValue     61ns  57ns
+
+HashMap, put               2627ns  1929ns
+(when key/value present)
+HashMap, containsKey       94ns  8ns
+HashMap, containsValue     90ns  32ns
+(when key/value absent)
+HashMap, containsKey       32ns  12ns
+HashMap, containsValue     41ns  36ns
+
+
+N = 100:
+                           Strings    Numbers
+TreeMap, put               4992ns  3038ns
+(when key/value present)
+TreeMap, containsKey       27ns  13ns
+TreeMap, containsValue     163ns  204ns
+(when key/value absent)
+TreeMap, containsKey       29ns  37ns
+TreeMap, containsValue     259ns  387ns
+
+HashMap, put               1432ns  1022ns
+(when key/value present)
+HashMap, containsKey       6ns  4ns
+HashMap, containsValue     2897ns  144ns
+(when key/value absent)
+HashMap, containsKey       8ns  12ns
+HashMap, containsValue     270ns  399ns
+
+
+N = 1000:
+                           Strings    Numbers
+TreeMap, put               2642ns  3667ns
+(when key/value present)
+TreeMap, containsKey       226ns  16ns
+TreeMap, containsValue     828ns  594ns
+(when key/value absent)
+TreeMap, containsKey       21ns  10ns
+TreeMap, containsValue     681ns  141ns
+
+HashMap, put               1457ns  1221ns
+(when key/value present)
+HashMap, containsKey       8ns  91ns
+HashMap, containsValue     956ns  307ns
+(when key/value absent)
+HashMap, containsKey       6ns  7ns
+HashMap, containsValue     711ns  472ns
+
+
+N = 10000:
+                           Strings    Numbers
+TreeMap, put               653ns  545ns
+(when key/value present)
+TreeMap, containsKey       7ns  5ns
+TreeMap, containsValue     1473ns  1027ns
+(when key/value absent)
+TreeMap, containsKey       8ns  3ns
+TreeMap, containsValue     2159ns  2172ns
+
+HashMap, put               582ns  915ns
+(when key/value present)
+HashMap, containsKey       2ns  2ns
+HashMap, containsValue     877ns  652ns
+(when key/value absent)
+HashMap, containsKey       4ns  1ns
+HashMap, containsValue     1803ns  1776ns
+
+
+N = 100000:
+                           Strings    Numbers
+TreeMap, put               924ns  752ns
+(when key/value present)
+TreeMap, containsKey       9ns  6ns
+TreeMap, containsValue     33206ns  34657ns
+(when key/value absent)
+TreeMap, containsKey       9ns  8ns
+TreeMap, containsValue     63943ns  73492ns
+
+HashMap, put               271ns  214ns
+(when key/value present)
+HashMap, containsKey       3ns  2ns
+HashMap, containsValue     17626ns  14611ns
+(when key/value absent)
+HashMap, containsKey       2ns  0ns
+HashMap, containsValue     36469ns  32614ns
+
+
