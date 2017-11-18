@@ -49,7 +49,6 @@ public class WordCruncher {
 		}
 		return count;
 	}
-
 	// method boolean beginsWithVowel() that returns true if the first letter of the instance variable is a vowel, and false otherwise.
 	public boolean beginsWithVowel() {
 		boolean flag = false;

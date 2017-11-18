@@ -1,4 +1,4 @@
-软件：jdk1.8;eclipse;mysql5.5
+配置：jdk1.7;eclipse;mysql5.5
 
 删除和修改都是根据id来进行的，查找是根据姓名来查找的
 
